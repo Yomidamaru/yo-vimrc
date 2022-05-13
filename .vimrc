@@ -30,8 +30,30 @@ filetype plugin indent on    " required
 
 set number
 set autoindent
+set shiftwidth=4
 set tabstop=4 
+set expandtab
+set nobackup
+set scrolloff=10
+set nowrap
+set incsearch
+set ignorecase
+set smartcase
+set showcmd
+set showmode
+set showmatch
+set hlsearch
+set history=1000
+set wildmenu
+set wildmode=list:longest
+set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 syntax on
+filetype on
+filetype indent on
+syntax on
+set cursorline
+set cursorcolumn
 
 colorscheme gruvbox
-set background=dark   
+set background=dark  
+
